@@ -1,6 +1,6 @@
----
-layout: slide
-title: "Welcome to our second slide!"
----
-Your text
-Use the left arrow to go back!
+git fetch origin 
+git checkout -b Dannypro125-patch-1 origin/Dannypro125-patch-1 
+git merge main
+git checkout main 
+git merge --no-ff Dannypro125-patch-1 
+git push origen principal
