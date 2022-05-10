@@ -1,2 +1,6 @@
-my-slide
-hola  mi dia estubo super genial
+git fetch origin 
+git checkout -b Dannypro125-patch-1 origin/Dannypro125-patch-1 
+git merge main
+git checkout main 
+git merge --no-ff Dannypro125-patch-1 
+git push origen principal
